@@ -1,0 +1,12 @@
+﻿@model TestSendEmail_Astek.Controllers.SendEmailViewModel
+
+@{
+    ViewBag.Title = "Send Email Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">Email Envoyé.à @Model.Email</p>
+</div>
+
+@Html.ActionLink("Home", "Index", "Retour sur Home")
