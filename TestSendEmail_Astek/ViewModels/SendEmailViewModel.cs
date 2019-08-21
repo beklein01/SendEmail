@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace TestSendEmail_Astek.Controllers.ViewModels
+namespace TestSendEmail_Astek.ViewModels
 {
     public class SendEmailViewModel
     {

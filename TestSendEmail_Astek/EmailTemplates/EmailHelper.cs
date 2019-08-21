@@ -17,7 +17,7 @@ namespace TestSendEmail_Astek.EmailTemplates
     /// <typeparam name="T"></typeparam>
     public class EmailHelper<T> where T : EmailModelBase
     {
-        private readonly string TemplateFolderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ConfigurationManager.AppSettings["EmailTemplates"].ToString());
+        private readonly string TemplateFolderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ConfigurationManager.AppSettings["EmailTemplatesFolder"].ToString());
 
         private readonly string _sender = ConfigurationManager.AppSettings["SmtpServerEmail"].ToString(); 
 
